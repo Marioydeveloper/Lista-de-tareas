@@ -5,7 +5,7 @@
     
 }
 
-/* Estilos de texto */
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -262,16 +262,4 @@ body {
     background-color: #FF2E2E;
     padding: 10px;
     
-}
-
-@media (max-width: 425px) {
-    #ToDoList-resume {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #ToDoList-resume p {
-        width: 100%;
-        text-align: center;
-    }
 }
