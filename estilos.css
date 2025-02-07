@@ -1,38 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
-    
+    font-style: normal;
 }
 
 .poppins-extralight {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
-    
+    font-style: normal;
 }
 
 .poppins-light {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-   
+    font-style: normal;
 }
 
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    
+    font-style: normal;
 }
 
 p, a, input, button, .poppins-medium {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    
+    font-style: normal;
     font-size: 1rem;
 }
 
 h2, h3, .poppins-semibold {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    
+    font-style: normal;
     font-size: 2.5rem;
 }
 
@@ -43,20 +51,20 @@ h3{
 h1, .poppins-bold {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    
+    font-style: normal;
     font-size: 3rem;
 }
 
 .poppins-extrabold {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
-   
+    font-style: normal;
 }
 
 .poppins-black {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
-    
+    font-style: normal;
 }
 
 .poppins-thin-italic {
@@ -68,25 +76,25 @@ h1, .poppins-bold {
 .poppins-extralight-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
-    
+    font-style: italic;
 }
 
 .poppins-light-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    
+    font-style: italic;
 }
 
 .poppins-regular-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    
+    font-style: italic;
 }
 
 .poppins-medium-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    
+    font-style: italic;
 }
 
 .poppins-semibold-italic {
@@ -98,7 +106,7 @@ h1, .poppins-bold {
 .poppins-bold-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    
+    font-style: italic;
 }
 
 .poppins-extrabold-italic {
@@ -110,17 +118,17 @@ h1, .poppins-bold {
 .poppins-black-italic {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
-    
+    font-style: italic;
 }
 
-
+/* Estilos generales */
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #260707;
+    background-color: brown;
 }
 
 #title {
@@ -130,9 +138,9 @@ body {
 }
 
 #ToDoList-container {
-    background-color: #3d40ff;
+    background-color: #3dffd292;
     padding: 20px;
-       width: 80vw;
+    width: 80vw;
 }
 
 #ToDoList-create-task {
@@ -145,15 +153,15 @@ body {
     padding: 10px;
     font-size: 1rem;
     border: none;
-    border-radius: 0.5rem;
+    
 }
 
 #ToDoList-create-task button {
     padding: 0px 15px;
     font-size: 2rem;
     border: none;
-        background-color: #4aff2e;
-    color: #070A26;
+    background-color: #eeff2e;
+    color: #060d48;
 }
 
 #ToDoList-create-task button:hover,
@@ -166,6 +174,7 @@ body {
     background-color: white;
     padding: 5px 10px;
     font-size: 0.8rem;
+    border-radius: 1rem;
     display: inline-block;
     width: auto;
     margin-top: 10px;
@@ -187,9 +196,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #293498;
+    background-color: #070A26;
     color: white;
-   }
+    
+}
 
 .task p {
     padding: 10px;
@@ -207,15 +217,15 @@ body {
 }
 
 #delete-icon {
-    fill: rgb(201, 11, 11);
+    fill: red;
 }
 
 #complete-icon {
-    fill: #46ff2e;
+    fill: green;
 }
 
 #edit-icon {
-    fill: #863DFF;
+    fill: pink;
 }
 
 .task button:hover #delete-icon {
@@ -223,11 +233,11 @@ body {
 }
 
 .task button:hover #complete-icon {
-    fill: green;
+    fill: #61cc0a;
 }
 
 .task button:hover #edit-icon {
-    fill: #da06be;
+    fill: #6206da;
 }
 
 #ToDoList-resume {
@@ -239,19 +249,20 @@ body {
 }
 
 #completed {
-    background-color: #61cc0a;
+    background-color: #418906;
     padding: 10px;
+    
     order: 1;
 }
 
 #total {
-    background-color: #0618da;
+    background-color: #320869;
     padding: 10px;
-    border-radius: 0.5rem;
+    
 }
 
 #incompleted {
-    background-color: #FF2E2E;
+    background-color: #820404;
     padding: 10px;
-    
+
 }
